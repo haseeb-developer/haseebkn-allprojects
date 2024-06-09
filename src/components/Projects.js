@@ -45,7 +45,7 @@ const projectList = [
   {
     id: 7,
     title: "Text Converter",
-    description: "Text Converter: Seamlessly Transform Text for Accessibility",
+    description: "Seamlessly Transform Text for Accessibility",
     url: "https://text-converterr.vercel.app/",
   },
 ];
