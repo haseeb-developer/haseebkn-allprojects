@@ -17,9 +17,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
-    no-repeat center center fixed;
+  background: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -44,7 +46,7 @@ body {
   /* overflow: hidden; */
   padding-left: 15px;
   padding-top: 15px;
-  color: #1a1c22;
+  color: #1e1a22;
   background: rgba(255, 255, 255, 0.2);
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
