@@ -4,39 +4,46 @@ import "./Projects.css";
 
 const projectList = [
   {
+    id: 1,
     title: "Family Outdoor",
     description: "A project about family outdoor activities.",
     url: "https://family-outdoor.vercel.app/",
   },
   {
+    id: 2,
     title: "Expense Tracker",
     description: "Simplify budget management with ease.",
     url: "https://expensee-trackerr.vercel.app/",
   },
   {
+    id: 3,
     title: "Password Generator",
     description: "Effortlessly create secure and unique passwords",
     url: "https://passwordd-generator.vercel.app/",
   },
   {
+    id: 4,
     title: "Simple to Advanced Words",
     description:
       "Explore a Comprehensive Spectrum of Vocabulary Ranges Effortlessly",
     url: "https://simple-to-advanced-words.vercel.app/",
   },
   {
+    id: 5,
     title: "Draw Phone Pattern",
     description:
       "Create Unique Unlock Patterns to Enhance Security and Personalization",
     url: "https://draw-phone-pattern.vercel.app/",
   },
   {
+    id: 6,
     title: "Check Live Weather",
     description:
       "Access Accurate and Timely Weather Forecasts to Plan Your Day Effectively.",
     url: "https://check-live-weather.vercel.app/",
   },
   {
+    id: 7,
     title: "Text Converter",
     description: "Text Converter: Seamlessly Transform Text for Accessibility",
     url: "https://text-converterr.vercel.app/",
@@ -61,6 +68,7 @@ const Projects = () => {
           <div className="col-md-4 mb-4" key={index}>
             <div className="card h-100">
               <div className="card-body">
+                <h1 className="card-id">{project.id}</h1>
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
                 <a
