@@ -20,6 +20,8 @@ body {
   background: url("https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600")
     no-repeat center center fixed;
   background-size: cover;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .card-title {
@@ -61,21 +63,6 @@ body {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-/* !========================================== */
-
-/* .visit-button {
-  transition: 0.4s ease-in-out;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 5px 20px;
-}
-
-.visit-button:hover {
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-} */
-
-/* CSS */
 .visit-button {
   all: unset;
   width: 100px;
@@ -143,8 +130,6 @@ body {
   transform: translate(0, 5%);
 }
 
-/* !========================================== */
-
 .page-link:hover {
   background-color: #007bff;
   color: white;
@@ -159,6 +144,7 @@ body {
 
 .disabled .page-link {
   pointer-events: none;
+  /* cursor: not-allowed; */
   background-color: #e9ecef;
   border: none;
   color: #6c757d;
