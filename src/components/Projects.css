@@ -47,7 +47,7 @@ body {
 }
 
 .pagination {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .page-item {
@@ -137,9 +137,9 @@ body {
 }
 
 .active .page-link {
-  background-color: #007bff;
+  background-color: #28282d;
   border: none;
-  color: white;
+  /* background-color: #f0f0f0; */
 }
 
 .disabled .page-link {
