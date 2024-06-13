@@ -48,6 +48,12 @@ const projectList = [
     description: "Seamlessly Transform Text for Accessibility",
     url: "https://text-converterr.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Image To Text",
+    description: "Easiest way to convert an image to a text",
+    url: "https://imgtotextconverter.vercel.app/",
+  },
 ];
 
 const Projects = () => {
