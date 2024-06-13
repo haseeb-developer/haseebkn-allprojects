@@ -51,7 +51,7 @@ const projectList = [
   {
     id: 8,
     title: "Image To Text",
-    description: "Easiest way to convert an image to a text",
+    description: "Easiest way to convert an image to a text.",
     url: "https://imgtotextconverter.vercel.app/",
   },
 ];
