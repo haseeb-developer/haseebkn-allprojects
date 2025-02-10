@@ -54,6 +54,30 @@ const projectList = [
     description: "Easiest way to convert an image to a text.",
     url: "https://imgtotextconverter.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Age Finder",
+    description: "Find how old you are, Just by entering your day, months and year.",
+    url: "https://age-finder-v1.netlify.app/",
+  },
+  {
+    id: 10,
+    title: "QR Code Generator",
+    description: "Easy way to generate your QR code and customize it.",
+    url: "https://advanced-qr-code-generator.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "Save Your Data",
+    description: "Worry where to store data? SaveXData the best project to save your data into your local storage.",
+    url: "https://save-my-data.netlify.app/",
+  },
+  {
+    id: 12,
+    title: "Link Shortner",
+    description: "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs and make them simple to share.",
+    url: "https://link-shortner-v1.netlify.app/",
+  },
 ];
 
 const Projects = () => {
