@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
+import ProjectDescription from "./ProjectDescription";
 import "./Projects.css";
 
 const projectList = [
@@ -69,13 +70,13 @@ const projectList = [
   {
     id: 11,
     title: "Save Your Data",
-    description: "Worry where to store data? SaveXData the best project to save your data into your local storage.",
+    description: "Worry where to store data? SaveXData the best project to save your data.",
     url: "https://save-my-data.netlify.app/",
   },
   {
     id: 12,
     title: "Link Shortner",
-    description: "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs and make them simple to share.",
+    description: "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs.",
     url: "https://link-shortner-v1.netlify.app/",
   },
 ];
@@ -93,7 +94,8 @@ const Projects = () => {
 
   return (
     <div className="container">
-      <div className="row">
+                <ProjectDescription />
+                <div className="row">
         {currentProjects.map((project, index) => (
           <div className="col-md-4 mb-4" key={index}>
             <div className="card h-100">
@@ -114,7 +116,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="row justify-content-center mt-4">
+      <div className="row justify-content-center mt-8">
         <ReactPaginate
           previousLabel={"← Previous"}
           nextLabel={"Next →"}

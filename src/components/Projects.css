@@ -1,15 +1,13 @@
-/* Import a modern, clean font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* Base Variables */
 :root {
-  --primary: #ffffff;         /* Main text color */
-  --secondary: #3f51b5;        /* Sophisticated blue */
-  --accent: #e91e63;           /* Vibrant pink accent */
-  --bg: #212121;              /* Dark background */
+  --primary: #ffffff;      
+  --secondary: #3f51b5;  
+  --accent: #e91e63; 
+  --bg: #212121;          
 }
 
-/* Reset & Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +24,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ===================== */
-/*   Pagination Styles   */
-/* ===================== */
 .pagination {
   display: flex;
   justify-content: center;
@@ -51,7 +46,6 @@ body {
   overflow: hidden;
 }
 
-/* Smooth animated ripple effect for pagination */
 .page-link::before {
   content: "";
   position: absolute;
@@ -86,17 +80,14 @@ body {
   opacity: 0.5;
 }
 
-/* ===================== */
-/*    Visit Button       */
-/* ===================== */
 .visit-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 50px;       /* Increased padding for a larger button */
+  padding: 20px 50px;      
   background: linear-gradient(45deg, var(--secondary), var(--accent));
   color: var(--primary);
-  font-size: 20px;          /* Larger, bolder text */
+  font-size: 20px;       
   font-weight: 600;
   border: none;
   border-radius: 12px;
@@ -108,7 +99,6 @@ body {
   display: block;
 }
 
-/* Subtle animated overlay effect */
 .visit-button::after {
   content: "";
   position: absolute;

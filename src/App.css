@@ -14,14 +14,14 @@
   /* font-family: "Comfortaa", sans-serif; */
 }
 .container {
-  padding: 20px;
+  padding-inline: 20px;
+  padding-bottom: 20px;
   color: #fff;
 }
 
 .myproject-title {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 70px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
