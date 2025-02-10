@@ -15,14 +15,14 @@
 }
 .container {
   padding: 20px;
-  color: #333;
+  color: #fff;
 }
 
 .myproject-title {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #28282d;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
 }

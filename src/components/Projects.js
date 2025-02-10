@@ -6,19 +6,19 @@ const projectList = [
   {
     id: 1,
     title: "Family Outdoor",
-    description: "A project about family outdoor activities.",
+    description: "A project centered around fun and engaging outdoor activities for families.",
     url: "https://family-outdoor.vercel.app/",
   },
   {
     id: 2,
     title: "Expense Tracker",
-    description: "Simplify budget management with ease.",
+    description: "Easily track expenses and manage your budget with this simple, efficient tool.",
     url: "https://expensee-trackerr.vercel.app/",
   },
   {
     id: 3,
     title: "Password Generator",
-    description: "Effortlessly create secure and unique passwords",
+    description: "Easily generate strong, secure, and unique passwords to protect your accounts.",
     url: "https://passwordd-generator.vercel.app/",
   },
   {
