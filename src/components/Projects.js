@@ -88,9 +88,9 @@ const projectList = [
   {
     id: 14,
     title: "Directory Explorer",
-    description: "If you want to save your images without deleting it, then this site is good for you.",
+    description: "Visualize and explore your file system with an interactive tree view and advanced features.",
     url: "https://directory-explorer.netlify.app/",
-  },
+  }  
 ];
 
 const Projects = () => {
