@@ -25,17 +25,15 @@ const projectList = [
   {
     id: 4,
     title: "Simple to Advanced Words",
-    description:
-      "Explore a Comprehensive Spectrum of Vocabulary Ranges Effortlessly",
+    description: "Effortlessly explore a wide range of vocabulary, from basic words to complex expressions.",
     url: "https://simple-to-advanced-words.vercel.app/",
   },
   {
     id: 5,
     title: "Draw Phone Pattern",
-    description:
-      "Create Unique Unlock Patterns to Enhance Security and Personalization",
+    description: "Design and customize unique unlock patterns to enhance both security and personalization.",
     url: "https://draw-phone-pattern.vercel.app/",
-  },
+  },  
   {
     id: 6,
     title: "Check Live Weather",
