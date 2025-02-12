@@ -94,7 +94,7 @@ const projectList = [
   {
     id: 15,
     title: "Life Age Calculator",
-    description: "Calculate your exact age in years, months, days, and even seconds with a detailed breakdown.",
+    description: "Calculate your exact age in years, months, days, with a detailed breakdown.",
     url: "https://life-age-calculator1.netlify.app/",
   }  
 ];
