@@ -85,6 +85,12 @@ const projectList = [
     description: "If you want to save your images without deleting it, then this site is good for you.",
     url: "https://your-gallery01.netlify.app/",
   },
+  {
+    id: 14,
+    title: "Directory Explorer",
+    description: "If you want to save your images without deleting it, then this site is good for you.",
+    url: "https://directory-explorer.netlify.app/",
+  },
 ];
 
 const Projects = () => {
