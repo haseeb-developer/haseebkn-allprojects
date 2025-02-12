@@ -37,10 +37,13 @@ const ProjectDescription = () => {
   }, [descriptions.length]);
 
   return (
+    <div className='main-dc'>
+        <h3>React JS | JavaScript | Frontend Developer | Shopify</h3>
     <div className="description-container">
       <p className={`description-text ${animating ? 'enter' : 'exit'}`}>
         {descriptions[currentIndex]}
       </p>
+    </div>
     </div>
   );
 };
