@@ -90,6 +90,12 @@ const projectList = [
     title: "Directory Explorer",
     description: "Visualize and explore your file system with an interactive tree view and advanced features.",
     url: "https://directory-explorer.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "Life Age Calculator",
+    description: "Calculate your exact age in years, months, days, and even seconds with a detailed breakdown.",
+    url: "https://life-age-calculator1.netlify.app/",
   }  
 ];
 
