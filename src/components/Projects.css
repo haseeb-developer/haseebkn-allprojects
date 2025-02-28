@@ -32,6 +32,10 @@ body {
   margin: 0 8px;
 }
 
+.card-id {
+  color: #e91e63;
+}
+
 .page-link {
   position: relative;
   display: flex;
