@@ -137,6 +137,12 @@ const projectList = [
     title: "Screen Resolution",
     description: "Find out my current screen resolution",
     url: "https://check-screen-resolution.vercel.app/"
+  },
+  {
+    id: 23,
+    title: "Check your Resolution",
+    description: "Checkout your device screen resolution Live.",
+    url: "https://check-screen-resolution.netlify.app/"
   }
 ];
 
