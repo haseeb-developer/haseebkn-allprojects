@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
 .preloader-overlay {
   position: fixed;
@@ -5,18 +6,19 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #000, #111);
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef, #dee2e6, #ced4da);
   background-size: 400% 400%;
-  animation: gradientBG 10s ease infinite;
+  animation: shockBG 10s ease infinite;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   z-index: 9999;
 }
 
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+@keyframes shockBG {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
@@ -26,27 +28,46 @@
 }
 
 .rotating-ring {
-  width: 120px;
-  height: 120px;
-  border: 4px solid rgba(0, 255, 255, 0.4);
-  border-top: 4px solid rgba(0, 255, 255, 1);
+  width: 150px;
+  height: 150px;
+  border: 6px solid rgba(33, 37, 41, 0.2);
+  border-top: 6px solid rgba(33, 37, 41, 0.5);
   border-radius: 50%;
-  animation: rotate 2s linear infinite;
+  animation: rotateMorph 3s ease-in-out infinite;
   margin: 0 auto;
 }
 
-@keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes rotateMorph {
+  0% {
+    transform: rotate(0deg) scale(1);
+    border-radius: 50%;
+  }
+  25% {
+    transform: rotate(90deg) scale(1.1);
+    border-radius: 40% 60% 70% 30% / 30% 40% 60% 70%;
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+    border-radius: 50%;
+  }
+  75% {
+    transform: rotate(270deg) scale(1.1);
+    border-radius: 30% 70% 50% 50% / 60% 40% 30% 70%;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    border-radius: 50%;
+  }
 }
 
 .glitch-text {
   position: relative;
-  color: #0ff;
-  font-size: 2.5rem;
-  font-family: 'Orbitron', sans-serif; 
-  margin-top: 20px;
-  letter-spacing: 3px;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  color: #212529;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  animation: textShock 4s infinite;
 }
 
 .glitch-text::before,
@@ -60,69 +81,38 @@
 }
 
 .glitch-text::before {
-  color: #f0f;
+  color: #495057;
   z-index: -1;
-  clip: rect(0, 900px, 0, 0);
-  animation: glitch-anim 2s infinite linear alternate-reverse;
+  clip-path: inset(0 50% 0 0);
+  animation: glitchBefore 2s infinite;
 }
 
 .glitch-text::after {
-  color: #0ff;
+  color: #adb5bd;
   z-index: -2;
-  clip: rect(0, 900px, 0, 0);
-  animation: glitch-anim2 3s infinite linear alternate-reverse;
+  clip-path: inset(0 0 0 50%);
+  animation: glitchAfter 2.5s infinite;
 }
 
-@keyframes glitch-anim {
-  0% {
-    clip: rect(10px, 9999px, 20px, 0);
-    transform: translate(-2px, -2px);
-  }
-  20% {
-    clip: rect(85px, 9999px, 95px, 0);
-    transform: translate(2px, 2px);
-  }
-  40% {
-    clip: rect(15px, 9999px, 25px, 0);
-    transform: translate(-2px, 2px);
-  }
-  60% {
-    clip: rect(75px, 9999px, 85px, 0);
-    transform: translate(2px, -2px);
-  }
-  80% {
-    clip: rect(10px, 9999px, 20px, 0);
-    transform: translate(-2px, 2px);
-  }
-  100% {
-    clip: rect(80px, 9999px, 90px, 0);
-    transform: translate(2px, -2px);
-  }
+@keyframes glitchBefore {
+  0%   { transform: translate(0); }
+  20%  { transform: translate(-5px, -5px); }
+  40%  { transform: translate(5px, 5px); }
+  60%  { transform: translate(-5px, 5px); }
+  80%  { transform: translate(5px, -5px); }
+  100% { transform: translate(0); }
 }
 
-@keyframes glitch-anim2 {
-  0% {
-    clip: rect(5px, 9999px, 15px, 0);
-    transform: translate(2px, 2px);
-  }
-  20% {
-    clip: rect(80px, 9999px, 90px, 0);
-    transform: translate(-2px, -2px);
-  }
-  40% {
-    clip: rect(20px, 9999px, 30px, 0);
-    transform: translate(2px, -2px);
-  }
-  60% {
-    clip: rect(60px, 9999px, 70px, 0);
-    transform: translate(-2px, 2px);
-  }
-  80% {
-    clip: rect(25px, 9999px, 35px, 0);
-    transform: translate(2px, 2px);
-  }
-  100% {
-    clip: rect(70px, 9999px, 80px, 0);
-    transform: translate(-2px, -2px);
-  }
+@keyframes glitchAfter {
+  0%   { transform: translate(0); }
+  20%  { transform: translate(5px, 5px); }
+  40%  { transform: translate(-5px, -5px); }
+  60%  { transform: translate(5px, -5px); }
+  80%  { transform: translate(-5px, 5px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes textShock {
+  0%, 100% { text-shadow: 2px 2px 0 #ced4da, -2px -2px 0 #dee2e6; }
+  50% { text-shadow: 5px 5px 5px #adb5bd, -5px -5px 5px #6c757d; }
 }

@@ -38,7 +38,7 @@ const ProjectDescription = () => {
 
   return (
     <div className='main-dc'>
-        <h3>React JS | JavaScript | Frontend Developer | Shopify</h3>
+        <h3>React JS | JavaScript</h3>
     <div className="description-container">
       <p className={`description-text ${animating ? 'enter' : 'exit'}`}>
         {descriptions[currentIndex]}
