@@ -18,8 +18,8 @@ const Preloader = () => {
     <div className="preloader-overlay">
       <div className="preloader-container">
         <div className="rotating-ring"></div>
-        <div className="glitch-text" data-text="HOLD ON">
-          HOLD ON
+        <div className="glitch-text" data-text="LOADING...">
+          LOADING...
         </div>
       </div>
     </div>
