@@ -2,8 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 35vh;
   padding: 20px;
+}
+
+@media (max-width: 500px) {
+  .description-container {
+    height: 50vh;
+  }
 }
 
 .main-dc h3 {

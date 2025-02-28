@@ -18,10 +18,8 @@
 body {
   background: var(--bg);
   color: var(--primary);
-  min-height: 100vh;
   user-select: none;
   -webkit-user-select: none;
-  overflow-x: hidden;
 }
 
 .pagination {
@@ -36,6 +34,9 @@ body {
 
 .page-link {
   position: relative;
+  display: flex;
+      justify-content: center;
+      align-items: center;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.3);
   color: var(--primary);
@@ -91,13 +92,37 @@ body {
   font-weight: 600;
   border: none;
   border-radius: 12px;
+  max-width: 100%;
+  width: 100%;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 40px auto;
+  margin: 10px auto;
+  margin-top: 30px;
   display: block;
+  text-decoration: none;
 }
+
+.card-header {
+  max-width: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .visit-button {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .visit-button::after {
   content: "";
@@ -123,4 +148,32 @@ body {
 
 .visit-button:active {
   transform: scale(0.98);
+}
+
+.pagination {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .pagination {display: flex;
+    align-items: center;
+    max-width: 100px;
+    width: 100%;
+    gap: 6px;
+  }
+
+  .page-item {
+    margin: 2px;
+  }
+
+  .page-link {
+    padding: 6px 14px; 
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .material-icons {
+    font-size: 18px;
+  }
 }

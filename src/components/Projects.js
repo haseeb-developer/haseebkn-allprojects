@@ -33,7 +33,7 @@ const projectList = [
     title: "Draw Phone Pattern",
     description: "Design and customize unique unlock patterns to enhance both security and personalization.",
     url: "https://draw-phone-pattern.vercel.app/",
-  },  
+  },
   {
     id: 6,
     title: "Check Live Weather",
@@ -94,7 +94,50 @@ const projectList = [
     title: "Life Age Calculator",
     description: "Calculate your exact age in years, months, days, with a detailed breakdown.",
     url: "https://life-age-calculator1.netlify.app/",
-  }  
+  },
+  // ! Newww ============================= 
+  {
+    id: 16,
+    title: "Time Calculator",
+    description: "Easily calculate time differences and durations with precision.",
+    url: "https://calcuate-time.vercel.app/"
+  },
+  {
+    id: 17,
+    title: "Advanced Timer",
+    description: "Set and manage multiple timers with advanced customization options.",
+    url: "https://advanced-timerr.netlify.app/"
+  },
+  {
+    id: 18,
+    title: "Smart Calculator",
+    description: "A simple yet powerful calculator for quick and accurate calculations.",
+    url: "https://mycalculator-v1.netlify.app/"
+  },
+  {
+    id: 19,
+    title: "Live Code Editor",
+    description: "Write and test your code in real-time with instant preview.",
+    url: "https://livewritecode.netlify.app/"
+  },
+  {
+    id: 20,
+    title: "Ad-Free YouTube",
+    description: "Watch YouTube videos without annoying ads or distractions.",
+    url: "https://noads-youtube.netlify.app/"
+  },
+  {
+    id: 21,
+    title: "Secure Diary",
+    description: "Keep your personal notes and thoughts safe with encryption.",
+    url: "https://secure-diary.netlify.app/"
+  },
+  {
+    id: 22,
+    title: "Screen Resolution",
+    description: "Find out my current screen resolution",
+    url: "https://check-screen-resolution.vercel.app/"
+  }
 ];
 
 const Projects = () => {
@@ -110,15 +153,17 @@ const Projects = () => {
 
   return (
     <div className="container">
-                <ProjectDescription />
-                <div className="row">
+      <ProjectDescription />
+      <div className="row">
         {currentProjects.map((project, index) => (
           <div className="col-md-4 mb-4" key={index}>
             <div className="card h-100">
               <div className="card-body">
-                <h1 className="card-id">{project.id}</h1>
-                <h5 className="card-title">{project.title}</h5>
-                <p className="card-text">{project.description}</p>
+                <div className="card-header">
+                  <h1 className="card-id">{project.id}</h1>
+                  <h5 className="card-title">{project.title}</h5>
+                  <p className="card-text">{project.description}</p>
+                </div>
                 <a
                   href={project.url}
                   className="visit-button"
@@ -132,10 +177,10 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="row justify-content-center mt-8">
+      <div className="row justify-content-center mt-8 project-pagination">
         <ReactPaginate
-          previousLabel={"← Previous"}
-          nextLabel={"Next →"}
+          previousLabel={<span className="material-icons">arrow_back</span>}
+          nextLabel={<span className="material-icons">arrow_forward</span>}
           pageCount={Math.ceil(projectList.length / projectsPerPage)}
           onPageChange={handlePageClick}
           containerClassName={"pagination justify-content-center"}
@@ -145,8 +190,14 @@ const Projects = () => {
           activeClassName={"active"}
           pageClassName={"page-item"}
           pageLinkClassName={"page-link"}
+          breakLabel={"..."}
+          marginPagesDisplayed={1}
+          pageRangeDisplayed={0}
+          forcePage={currentPage}
         />
+
       </div>
+
     </div>
   );
 };
