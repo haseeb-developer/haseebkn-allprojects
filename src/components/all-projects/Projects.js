@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
-import ProjectDescription from "./ProjectDescription";
+import ProjectDescription from "../description/ProjectDescription";
 import "./Projects.css";
 
 const projectList = [

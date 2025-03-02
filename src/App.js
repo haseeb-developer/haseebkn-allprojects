@@ -1,9 +1,9 @@
 import React from "react";
 import { Analytics } from "@vercel/analytics/react";
-import Projects from "./components/Projects";
+import Projects from "./components/all-projects/Projects";
 import "./App.css";
-import Preloader from "./components/Preloader";
-import Footer from "./components/Footer";
+import Preloader from "./components/preloader/Preloader";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
