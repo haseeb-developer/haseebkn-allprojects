@@ -143,6 +143,12 @@ const projectList = [
     title: "Check your Resolution",
     description: "Checkout your device screen resolution Live.",
     url: "https://check-screen-resolution.netlify.app/"
+  },
+  {
+    id: 24,
+    title: "Advanced CRUD App",
+    description: "Create, Read, Update, and Delete data with a fully functional CRUD app.",
+    url: "https://advanced-crud.netlify.app/"
   }
 ];
 
