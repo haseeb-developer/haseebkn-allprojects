@@ -149,7 +149,14 @@ const projectList = [
     title: "Advanced CRUD App",
     description: "Create, Read, Update, and Delete data with a fully functional CRUD app.",
     url: "https://advanced-crud.netlify.app/"
-  }
+  },
+  {
+    id: 25,
+    title: "Life Progress Bar",
+    description: "Life Progress Bar with the feature of Years, Months, Days, Seconds",
+    url: "https://life-progressbars.netlify.app/"
+  },
+
 ];
 
 const Projects = () => {
