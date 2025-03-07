@@ -176,7 +176,7 @@ const projectList = [
     id: 26,
     title: "Ultra Heavenly Steganography Utility",
     description:
-      "A steganography tool that securely encodes secret messages into images using advanced AES encryption, XOR encryption, hidden markers, integrity checks, and a lockout countdown for maximum protection.",
+      "A steganography tool that securely encodes secret messages into images using advanced encryption for maximum protection.",
     url: "https://steganography-two.vercel.app/",
   },
 ];
