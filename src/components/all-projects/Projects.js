@@ -179,6 +179,13 @@ const projectList = [
       "A steganography tool that securely encodes secret messages into images using advanced encryption for maximum protection.",
     url: "https://steganography-two.vercel.app/",
   },
+  {
+    id: 27,
+    title: "Steganography Utility",
+    description:
+      "An encryption tool that shifts each letter in the message by a fixed number of position that decoding text.",
+    url: "https://caesar-cipher-v1.vercel.app/",
+  },
 ];
 
 const Projects = () => {
