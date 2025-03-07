@@ -7,31 +7,36 @@ const projectList = [
   {
     id: 1,
     title: "Family Outdoor",
-    description: "A project centered around fun and engaging outdoor activities for families.",
+    description:
+      "A project centered around fun and engaging outdoor activities for families.",
     url: "https://family-outdoor.vercel.app/",
   },
   {
     id: 2,
     title: "Expense Tracker",
-    description: "Easily track expenses and manage your budget with this simple, efficient tool.",
+    description:
+      "Easily track expenses and manage your budget with this simple, efficient tool.",
     url: "https://expensee-trackerr.vercel.app/",
   },
   {
     id: 3,
     title: "Password Generator",
-    description: "Easily generate strong, secure, and unique passwords to protect your accounts.",
+    description:
+      "Easily generate strong, secure, and unique passwords to protect your accounts.",
     url: "https://passwordd-generator.vercel.app/",
   },
   {
     id: 4,
     title: "Simple to Advanced Words",
-    description: "Effortlessly explore a wide range of vocabulary, from basic words to complex expressions.",
+    description:
+      "Effortlessly explore a wide range of vocabulary, from basic words to complex expressions.",
     url: "https://simple-to-advanced-words.vercel.app/",
   },
   {
     id: 5,
     title: "Draw Phone Pattern",
-    description: "Design and customize unique unlock patterns to enhance both security and personalization.",
+    description:
+      "Design and customize unique unlock patterns to enhance both security and personalization.",
     url: "https://draw-phone-pattern.vercel.app/",
   },
   {
@@ -56,7 +61,8 @@ const projectList = [
   {
     id: 9,
     title: "Age Finder",
-    description: "Find how old you are, Just by entering your day, months and year.",
+    description:
+      "Find how old you are, Just by entering your day, months and year.",
     url: "https://age-finder-v1.netlify.app/",
   },
   {
@@ -68,95 +74,111 @@ const projectList = [
   {
     id: 11,
     title: "Save Your Data",
-    description: "Worry where to store data? SaveXData the best project to save your data.",
+    description:
+      "Worry where to store data? SaveXData the best project to save your data.",
     url: "https://save-my-data.netlify.app/",
   },
   {
     id: 12,
     title: "Link Shortner",
-    description: "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs.",
+    description:
+      "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs.",
     url: "https://link-shortner-v1.netlify.app/",
   },
   {
     id: 13,
     title: "Images Gallery",
-    description: "If you want to save your images without deleting it, then this site is good for you.",
+    description:
+      "If you want to save your images without deleting it, then this site is good for you.",
     url: "https://your-gallery01.netlify.app/",
   },
   {
     id: 14,
     title: "Directory Explorer",
-    description: "Visualize and explore your file system with an interactive tree view and advanced features.",
+    description:
+      "Visualize and explore your file system with an interactive tree view and advanced features.",
     url: "https://directory-explorer.netlify.app/",
   },
   {
     id: 15,
     title: "Life Age Calculator",
-    description: "Calculate your exact age in years, months, days, with a detailed breakdown.",
+    description:
+      "Calculate your exact age in years, months, days, with a detailed breakdown.",
     url: "https://life-age-calculator1.netlify.app/",
   },
-  // ! Newww ============================= 
+  // ! Newww =============================
   {
     id: 16,
     title: "Time Calculator",
-    description: "Easily calculate time differences and durations with precision.",
-    url: "https://calcuate-time.vercel.app/"
+    description:
+      "Easily calculate time differences and durations with precision.",
+    url: "https://calcuate-time.vercel.app/",
   },
   {
     id: 17,
     title: "Advanced Timer",
-    description: "Set and manage multiple timers with advanced customization options.",
-    url: "https://advanced-timerr.netlify.app/"
+    description:
+      "Set and manage multiple timers with advanced customization options.",
+    url: "https://advanced-timerr.netlify.app/",
   },
   {
     id: 18,
     title: "Smart Calculator",
-    description: "A simple yet powerful calculator for quick and accurate calculations.",
-    url: "https://mycalculator-v1.netlify.app/"
+    description:
+      "A simple yet powerful calculator for quick and accurate calculations.",
+    url: "https://mycalculator-v1.netlify.app/",
   },
   {
     id: 19,
     title: "Live Code Editor",
     description: "Write and test your code in real-time with instant preview.",
-    url: "https://livewritecode.netlify.app/"
+    url: "https://livewritecode.netlify.app/",
   },
   {
     id: 20,
     title: "Ad-Free YouTube",
     description: "Watch YouTube videos without annoying ads or distractions.",
-    url: "https://noads-youtube.netlify.app/"
+    url: "https://noads-youtube.netlify.app/",
   },
   {
     id: 21,
     title: "Secure Diary",
     description: "Keep your personal notes and thoughts safe with encryption.",
-    url: "https://secure-diary.netlify.app/"
+    url: "https://secure-diary.netlify.app/",
   },
   {
     id: 22,
     title: "Screen Resolution",
     description: "Find out my current screen resolution",
-    url: "https://check-screen-resolution.vercel.app/"
+    url: "https://check-screen-resolution.vercel.app/",
   },
   {
     id: 23,
     title: "Check your Resolution",
     description: "Checkout your device screen resolution Live.",
-    url: "https://check-screen-resolution.netlify.app/"
+    url: "https://check-screen-resolution.netlify.app/",
   },
   {
     id: 24,
     title: "Advanced CRUD App",
-    description: "Create, Read, Update, and Delete data with a fully functional CRUD app.",
-    url: "https://advanced-crud.netlify.app/"
+    description:
+      "Create, Read, Update, and Delete data with a fully functional CRUD app.",
+    url: "https://advanced-crud.netlify.app/",
   },
   {
     id: 25,
     title: "Life Progress Bar",
-    description: "Life Progress Bar with the feature of Years, Months, Days, Seconds",
-    url: "https://life-progressbars.netlify.app/"
+    description:
+      "Life Progress Bar with the feature of Years, Months, Days, Seconds",
+    url: "https://life-progressbars.netlify.app/",
   },
-
+  {
+    id: 26,
+    title: "Ultra Heavenly Steganography Utility",
+    description:
+      "A steganography tool that securely encodes secret messages into images using advanced AES encryption, XOR encryption, hidden markers, integrity checks, and a lockout countdown for maximum protection.",
+    url: "https://steganography-two.vercel.app/",
+  },
 ];
 
 const Projects = () => {
@@ -214,9 +236,7 @@ const Projects = () => {
           pageRangeDisplayed={0}
           forcePage={currentPage}
         />
-
       </div>
-
     </div>
   );
 };
