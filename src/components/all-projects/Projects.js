@@ -6,31 +6,31 @@ import "./Projects.css";
 const projectList = [
   {
     id: 1,
-    title: "Family Outdoor",
+    title: "Shopify - AZO Products Project",
     description:
-      "A project centered around fun and engaging outdoor activities for families.",
-    url: "https://family-outdoor.vercel.app/",
+      "Contributed to AZO‑Products.com Shopify build: implemented responsive product pages, bundle and subscription UI, and enhanced navigation for UTI, bladder health, and wellness categories using Liquid, JavaScript.",
+    url: "https://azo-products.com/",
+  },
+    {
+    id: 2,
+    title: "Shopify - Archer Jerky",
+    description:
+      "Worked on Archer Jerky’s Shopify store at Node Software. Built product pages, fixed layout bugs, and improved speed using Liquid, HTML, CSS, and JS.",
+    url: "https://archerjerky.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Expense Tracker",
     description:
       "Easily track expenses and manage your budget with this simple, efficient tool.",
     url: "https://expensee-trackerr.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Password Generator",
     description:
       "Easily generate strong, secure, and unique passwords to protect your accounts.",
     url: "https://passwordd-generator.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Simple to Advanced Words",
-    description:
-      "Effortlessly explore a wide range of vocabulary, from basic words to complex expressions.",
-    url: "https://simple-to-advanced-words.vercel.app/",
   },
   {
     id: 5,
@@ -60,131 +60,64 @@ const projectList = [
   },
   {
     id: 9,
-    title: "Age Finder",
-    description:
-      "Find how old you are, Just by entering your day, months and year.",
-    url: "https://age-finder-v1.netlify.app/",
-  },
-  {
-    id: 10,
     title: "QR Code Generator",
     description: "Easy way to generate your QR code and customize it.",
     url: "https://advanced-qr-code-generator.netlify.app/",
   },
   {
-    id: 11,
+    id: 10,
     title: "Save Your Data",
     description:
       "Worry where to store data? SaveXData the best project to save your data.",
     url: "https://save-my-data.netlify.app/",
   },
   {
-    id: 12,
+    id: 11,
     title: "Link Shortner",
     description:
       "Tired of long links? Try Link Shortener—the easiest way to shorten your URLs.",
     url: "https://link-shortner-v1.netlify.app/",
   },
   {
-    id: 13,
+    id: 12,
     title: "Images Gallery",
     description:
       "If you want to save your images without deleting it, then this site is good for you.",
     url: "https://your-gallery01.netlify.app/",
   },
   {
-    id: 14,
+    id: 13,
     title: "Directory Explorer",
     description:
       "Visualize and explore your file system with an interactive tree view and advanced features.",
     url: "https://directory-explorer.netlify.app/",
   },
-  {
-    id: 15,
-    title: "Life Age Calculator",
-    description:
-      "Calculate your exact age in years, months, days, with a detailed breakdown.",
-    url: "https://life-age-calculator1.netlify.app/",
-  },
   // ! Newww =============================
   {
-    id: 16,
-    title: "Time Calculator",
-    description:
-      "Easily calculate time differences and durations with precision.",
-    url: "https://calcuate-time.vercel.app/",
-  },
-  {
-    id: 17,
-    title: "Advanced Timer",
-    description:
-      "Set and manage multiple timers with advanced customization options.",
-    url: "https://advanced-timerr.netlify.app/",
-  },
-  {
-    id: 18,
+    id: 14,
     title: "Smart Calculator",
     description:
       "A simple yet powerful calculator for quick and accurate calculations.",
     url: "https://mycalculator-v1.netlify.app/",
   },
   {
-    id: 19,
+    id: 15,
     title: "Live Code Editor",
     description: "Write and test your code in real-time with instant preview.",
     url: "https://livewritecode.netlify.app/",
   },
   {
-    id: 20,
-    title: "Ad-Free YouTube",
-    description: "Watch YouTube videos without annoying ads or distractions.",
-    url: "https://noads-youtube.netlify.app/",
-  },
-  {
-    id: 21,
-    title: "Secure Diary",
-    description: "Keep your personal notes and thoughts safe with encryption.",
-    url: "https://secure-diary.netlify.app/",
-  },
-  {
-    id: 22,
-    title: "Screen Resolution",
-    description: "Find out my current screen resolution",
-    url: "https://check-screen-resolution.vercel.app/",
-  },
-  {
-    id: 23,
+    id: 16,
     title: "Check your Resolution",
     description: "Checkout your device screen resolution Live.",
     url: "https://check-screen-resolution.netlify.app/",
   },
   {
-    id: 24,
+    id: 17,
     title: "Advanced CRUD App",
     description:
       "Create, Read, Update, and Delete data with a fully functional CRUD app.",
     url: "https://advanced-crud.netlify.app/",
-  },
-  {
-    id: 25,
-    title: "Life Progress Bar",
-    description:
-      "Life Progress Bar with the feature of Years, Months, Days, Seconds",
-    url: "https://life-progressbars.netlify.app/",
-  },
-  {
-    id: 26,
-    title: "Steganography Utility",
-    description:
-      "A steganography tool that securely encodes secret messages into images using advanced encryption for maximum protection.",
-    url: "https://steganography-two.vercel.app/",
-  },
-  {
-    id: 27,
-    title: "Steganography Utility",
-    description:
-      "An encryption tool that shifts each letter in the message by a fixed number of position that decoding text.",
-    url: "https://caesar-cipher-v1.vercel.app/",
   },
 ];
 
